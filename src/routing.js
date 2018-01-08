@@ -10,4 +10,5 @@ module.exports = function(app){
         .post('/employee', employee.create)
         .get('/employee', employee.getAll)
         .get('/employee/:id', employee.findById)
+        .post('/employee/search', employee.search)
 };
